@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>output的简单用法</title>
+</head>
+<body>
+	<form oninput="res.value = num1.valueAsNumber * num2.valueAsNumber">
+		<input type="number" id="num1"> *
+		<input type="number" id="num2"> =
+		<output for="num1 num2" name="res" ></output>
+		<button>计算</button>
+		
+	</form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>注册</legend>
+			用户名：<input type="text" name="user">
+			<br>
+			密  码：<input type="password" name="pwd">
+		</fieldset>
+		<button>提交</button>
+
+		<br>
+		<input type="text" name="list1" list="abc" required><button>提交</button>
+
+		<datalist id="abc">
+			<option value="1">苹果</option>
+			<option value="2" label="香蕉"></option>
+			<option value="橘子"></option>
+		</datalist>
+		<br>
+
+		<input type="search" name="">
+		<br>
+		<input type="number" name="">
+		<br>
+		<input type="date" name="">
+		<input type="month" name="">
+		<input type="time" name="">
+		<input type="week" name="">
+		<!-- datetime不支持 -->
+		<input type="datetime" name="">
+		<input type="datetime-local" name="">
+		<br>
+		<input type="color" name="">
+
+		
+	</form>
+</body>
+</html>
