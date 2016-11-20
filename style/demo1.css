@@ -1,0 +1,51 @@
+/*清零*/
+body,nav,h1,ul,li{
+	margin: 0;
+	padding: 0;
+
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.none{
+	display: none;
+}
+
+#nav{
+	width: 100%;
+	background-color: #333;
+	height: 70px;
+}
+#nav .center{
+	width: 1263px;
+	margin: 0 auto;
+}
+#nav .logo{
+	float: left;
+	width: 125px;
+	height: 70px;
+	background:url(../img/demo1/logo.jpg);
+	color: #fff;
+	text-indent: -9999px;
+}
+#nav .link{
+	float: right;
+	width: 600px;
+}
+#nav .link li{
+	float: left;
+	width: 110px;
+	text-align: center;
+	line-height: 70px;
+}
+#nav .link a{
+	color: #ccc;
+	display: block;
+}
+#nav .link a:hover,
+.active a{
+	background-color: #000;
+}
