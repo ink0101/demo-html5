@@ -181,3 +181,45 @@ ul{
 	top: 4px;
 	
 }
+#footer{
+	background-color: #222;
+	height: 360px;
+}
+#footer .top{
+	width: 1263px;
+	height: 280px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer .top .block{
+	width: 410px;
+	height: 280px;
+	/*background-color: green;*/
+	display: inline-block;
+	text-align: left;
+	/*垂直居顶*/
+	vertical-align: top;
+}
+#footer .top h2{
+	font-size: 24px;
+	color: #ccc;
+	padding: 20px 0 0 20px;
+}
+#footer .top hr{
+	width: 90%;
+	border: 1px dashed #333;
+}
+#footer .top ul{
+	font-size: 18px;
+	color: #777;
+	text-indent: 20px;
+	line-height: 2;
+}
+#footer .bottom{
+	text-align: center;
+	height: 79px;
+	line-height: 80px;
+	color: #777;
+	background-color: #000;
+	border-top: 1px solid #444;
+}
