@@ -1,0 +1,109 @@
+/*旅游资讯页面的样式*/
+#headline{
+	width: 100%;
+	min-width: 1263px;
+	background: linear-gradient(to bottom right,rgba(0,0,0,.7),rgba(0,0,0,0)),url(../img/demo1/headline.jpg) no-repeat center;
+	height: 297px;
+}
+#headline .center{
+	margin: 0 auto;
+	width: 1263px;
+	color: #eee;
+}
+#headline hgroup{
+	padding: 100px 0 0 50px;
+}
+#headline h2{
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headline h3{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#contain{
+	width: 1263px;
+	/*height: 1220px;*/
+	margin: 30px auto;
+}
+#contain .sidebar{
+	width: 340px;
+	/*height: 1220px;*/
+	float: right;
+	/*background-color: #eee;*/
+	
+}
+#contain .sidebar .sidebox{
+	border: 1px solid #eee;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+#contain .sidebar .sidebox h2{
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-indent: 8px;
+	color: #666;
+	background-color: #fafafa;
+	text-align: left;
+}
+#contain .tag{
+	padding: 10px 0;
+}
+#contain .tag a{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #eee;
+	color: #999;
+	margin: 2px 0;
+}	
+#contain .tag a:hover{
+	background-color: #458b00;
+	color: #fff;
+}
+#contain .figure{
+	padding: 10px 0;
+}
+#contain figure{
+	width: 150px;
+	height: 98px;
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+#contain .box{
+	padding: 10px 0;
+}
+#contain .box a{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	width: 150px;
+	color: #666;
+	margin: 2px 0;
+	text-align: left;
+	text-indent: 48px;
+}
+
+#contain .box .trea1{
+	background: url(../img/demo1/box1.png) left center no-repeat;
+}
+#contain .box .trea2{
+	background: url(../img/demo1/box2.png) left center no-repeat;
+}
+#contain .box .trea3{
+	background: url(../img/demo1/box3.png) left center no-repeat;
+}
+#contain .box .trea4{
+	background: url(../img/demo1/box4.png) left center no-repeat;
+}
+#contain .list{
+	width: 900px;
+	/*height: 1220px;*/
+	float: left;
+	/*background-color: #ccc;*/
+}
