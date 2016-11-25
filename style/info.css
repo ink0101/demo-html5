@@ -52,14 +52,18 @@
 #contain .tag{
 	padding: 10px 0;
 }
-#contain .tag a{
+#contain .tag li{
 	display: inline-block;
 	width: 100px;
 	height: 35px;
 	line-height: 35px;
 	background-color: #eee;
-	color: #999;
+	
 	margin: 2px 0;
+}
+#contain .tag a{
+	display: block;
+	color: #999;
 }	
 #contain .tag a:hover{
 	background-color: #458b00;
