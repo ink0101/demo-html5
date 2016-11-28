@@ -157,3 +157,129 @@
 	color: #fff;
 	background-color: #458b00;
 }
+#contain .tour{
+	width: 898px;
+	height: 250px;
+	padding: 0;
+	margin-top: 20px;
+	border: 1px solid #eee;
+	position: relative;
+}
+#contain .tour img{
+	float: left;
+	width: 380px;
+}
+#contain .tour figcaption{
+	float: right;
+	width: 518px;
+	height: 250px;
+	/*background-color: red;*/
+}
+#contain .tour hgroup{
+	width: 310px;
+}
+#contain .tour h2{
+	font-size: 24px;
+	color: #333;
+	padding: 10px 0 10px 25px;
+	font-weight: normal;
+}
+#contain .tour h3{
+	font-size: 16px;
+	color: #666;
+	padding: 10px 0 10px 25px;
+	font-weight: normal;
+	line-height: 1.5;
+}	
+#contain .tour ol{
+	padding: 10px 0 10px 25px;
+	line-height: 2;
+	font-size: 14px;
+}
+#contain .tour strong{
+	color: #458b00;
+	border: 1px solid #458b00;
+	font-weight: normal;
+	padding: 1px 4px;
+	border-radius: 4px;
+}
+#contain .tour footer{
+	width: 518px;
+	text-indent: 25px;
+	padding-top: 25px;
+	font-size: 14px;
+	letter-spacing: 1px;
+}
+#contain .tour time{
+	color: #458b00;
+}
+#contain .buy{
+	position: absolute;
+	top: 54px;
+	right: 34px;
+}
+#contain .price{
+	font-size: 34px;
+	color: #f60;
+}
+#contain .price s{
+	font-size: 14px;
+	color: #999;
+}
+#contain .reserve{
+	width: 130px;
+	height: 34px;
+	background-color: #f60;
+	line-height: 34px;
+	text-align: center;
+	color: #fff;
+	margin-top: 15px;
+}
+#contain .dis-bg{
+	width: 0px;
+	height: 0px;
+	border-top: 50px solid #ffedad;
+    border-left: 50px solid transparent; 
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#contain .discount span{
+	display: block;
+	color: #ff7a4d;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transform: rotate(45deg);
+	width: 52px;
+	height: 52px;
+	font-size: 14px;
+	text-indent: 6px;
+	padding: 6px 0 0 0;
+}
+#contain .type{
+	background-color: #59b200;
+	width: 90px;
+	color: #fff;
+	height: 25px;
+	font-size: 14px;
+	line-height: 25px;
+	text-align: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+}
+#contain .more{
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	margin: 20px auto 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	color: #333;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	background-color: #fafafa;
+}

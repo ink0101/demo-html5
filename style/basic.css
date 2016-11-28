@@ -1,13 +1,16 @@
+/*设置字体*/
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 /*清零*/
-body,nav,h1,h2,ul,li,input,button,figure{
+body,nav,h1,h2,h3,h4,ul,ol,li,input,button,figure{
 	margin: 0;
 	padding: 0;
-
 }
 a{
 	text-decoration: none;
 }
-ul{
+ul,ol{
 	list-style: none;
 }
 .none{
