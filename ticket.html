@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>机票订购</title>
+	<link rel="stylesheet" type="text/css" href="style/basic.css">
+	<link rel="stylesheet" type="text/css" href="style/info.css">
+</head>
+<body>
+	<!-- 导航区域 -->
+	<header id="nav">
+		<div class="center">
+			<h1 class="logo">知名旅行社</h1>
+			<nav class="link">
+				<h2 class="none">网站导航</h2>
+				<ul>
+					<li><a href="demo1-index.html">首页</a></li>
+					<li><a href="information.html">旅游资讯</a></li>
+					<li class="active"><a href="#">机票订购</a></li>
+					<li><a href="#">风景欣赏</a></li>
+					<li><a href="#">公司简介</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>	
+	<div id="headline">
+		<div class="center">
+			<hgroup>
+				<h2>旅游资讯</h2>
+				<h3>介绍各种最新旅游信息、资讯要闻、景点攻略等</h3>
+			</hgroup>
+		</div>
+	</div>
+	<!-- 主体内容区域 -->
+	<div id="contain">
+		<!-- 右边侧边栏 -->
+		<div class="sidebar">
+			<div class="recommend sidebox">
+				<h2>景点推荐</h2>
+				<div class="tag">
+					<ul>
+						<li><a href="#">曼谷(12)</a></li>
+						<li><a href="#">东京(2)</a></li>
+						<li><a href="#">西双版纳(13)</a></li>
+						<li><a href="#">丽江(3)</a></li>
+						<li><a href="#">呼伦贝尔(5)</a></li>
+						<li><a href="#">首尔(4)</a></li>
+						<li><a href="#">巴厘岛(12)</a></li>
+						<li><a href="#">土耳其(14)</a></li>
+						<li><a href="#">夏威夷(3)</a></li>
+						<li><a href="#">吉普岛(3)</a></li>
+						<li><a href="#">毛里求斯(21)</a></li>
+						<li><a href="#">巴厘岛(4)</a></li>
+						<li><a href="#">希腊(12)</a></li>
+						<li><a href="#">爱琴海(3)</a></li>
+						<li><a href="#">马尔代夫(3)</a></li>
+						<li><a href="#">埃及(12)</a></li>
+						<li><a href="#">迪拜(10)</a></li>
+						<li><a href="#">斯里兰卡(4)</a></li>
+						<li><a href="#">曼哈顿(4)</a></li>
+						<li><a href="#">大阪(5)</a></li>
+						<li><a href="#">法瑞意(8)</a></li>
+					</ul>
+					
+				</div>
+			</div>
+			<div class="hot sidebox">
+				<h2>热门旅游</h2>
+				<div class="figure">
+					<figure>
+						<img src="img/demo1/hot1.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot2.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot3.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot4.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot5.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot6.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot7.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+					<figure>
+						<img src="img/demo1/hot8.jpg">
+						<figcaption>曼谷-芭提雅6日游</figcaption>
+					</figure>
+				</div>
+			</div>
+			<div class="treasure sidebox">
+				<h2>旅游百宝箱</h2>
+				<div class="box">
+					<a href="#" class="trea1">天气预报</a>
+					<a href="#" class="trea2">火车票查询</a>
+					<a href="#" class="trea3">航空查询</a>
+					<a href="#" class="trea4">地铁线路查询</a>
+				</div>
+			</div>
+		</div>
+		<!-- 左边机票订购 -->
+		<div class="list ticket">
+			<form action="#">
+				<div class="type">
+					<h2>机票预订</h2>
+					<p>航班类型 <mark>单程</mark> 往返</p>
+				</div>
+				<div class="tk-left">
+					<p>
+						<label>出发城市</label>
+						<input type="text" name="" placeholder="城市名">
+					</p>
+					<p>
+						<label>返回城市</label>
+						<input type="text" name="" placeholder="城市名">
+					</p>
+					
+				</div>
+				<div class="tk-right">
+					<p>
+						<label>出发时间</label>
+						<input type="text" name="" placeholder="时间/日期">
+					</p>
+					<p>
+						<label>返回时间</label>
+						<input type="text" name="" placeholder="时间/日期">
+					</p>
+					
+				</div>
+				<div class="tk-button">
+					<button type="submit">订票</button>
+				</div>
+				<div class="new">
+					<h2>最新机票</h2>
+					<ul>
+						<li>热门城市：</li>
+						<li class="select">北京</li>
+						<li>上海</li>
+						<li>广州</li>
+						<li>深圳</li>
+						<li>重庆</li>
+						<li>成都</li>
+						<li>杭州</li>
+						<li>南京</li>
+					</ul>
+
+					<table>
+						<thead>
+							<tr>
+								<th>路线</th>
+								<th>日期</th>
+								<th>价格</th>
+								<th>税费</th>
+								<th>餐食</th>
+								<th>航班</th>
+								<th>预订</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>北京-成都</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥45</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-上海</td>
+								<td>10-15</td>
+								<td class="price">￥479</td>
+								<td>￥55</td>
+								<td>无</td>
+								<td>南方航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-深圳</td>
+								<td>10-15</td>
+								<td class="price">￥561</td>
+								<td>￥50</td>
+								<td>有</td>
+								<td>春秋航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-杭州</td>
+								<td>10-15</td>
+								<td class="price">￥567</td>
+								<td>￥45</td>
+								<td>有</td>
+								<td>西部航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-广州</td>
+								<td>10-15</td>
+								<td class="price">￥745</td>
+								<td>￥45</td>
+								<td>有</td>
+								<td>首都航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-重庆</td>
+								<td>10-15</td>
+								<td class="price">￥436</td>
+								<td>￥45</td>
+								<td>有</td>
+								<td>东方航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-昆明</td>
+								<td>10-15</td>
+								<td class="price">￥509</td>
+								<td>￥45</td>
+								<td>无</td>
+								<td>厦门航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-厦门</td>
+								<td>10-15</td>
+								<td class="price">￥893</td>
+								<td>￥45</td>
+								<td>有</td>
+								<td>深圳航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+							<tr>
+								<td>北京-长沙</td>
+								<td>10-15</td>
+								<td class="price">￥663</td>
+								<td>￥45</td>
+								<td>有</td>
+								<td>四川航空</td>
+								<td><a href="#">预订</a></td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="7">
+									加载更多...
+								</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</form>
+			
+		</div>
+	</div>
+
+	<!-- 脚注 -->
+	<footer id="footer">
+		<div class="top">
+			<div class="left block">
+				<h2>合作伙伴</h2>
+				<hr>
+				<ul>
+					<li>途牛旅游网</li>
+					<li>驴妈妈旅游网</li>
+					<li>携程旅游</li>
+					<li>中国青年旅行社</li>
+				</ul>
+			</div>
+			<div class="center block">
+				<h2>旅游FAQ</h2>
+				<hr>
+				<ul>
+					<li>旅游合同签订方式？</li>
+					<li>儿童价是基于什么指定的？</li>
+					<li>旅游的路线品质是怎么界定的？</li>
+					<li>单房差是什么？</li>
+					<li>旅游保险有哪些种类？</li>
+				</ul>
+			</div> 
+			<div class="right block">
+				<h2>联系方式</h2>
+				<hr>
+				<ul>
+					<li>微博：weibo.com/yuu</li>
+					<li>邮件：123954@234.com</li>
+					<li>地址：浙江杭州路路路345</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="bottom">
+			Copyright © YCUK 知名旅行社| 苏ICP 备29849900号|旅行社经营许可证：L-YC-BK-2345
+		</div>
+	</footer>
+</body>
+</html>

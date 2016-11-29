@@ -218,11 +218,11 @@
 	top: 54px;
 	right: 34px;
 }
-#contain .price{
+#contain .information .price{
 	font-size: 34px;
 	color: #f60;
 }
-#contain .price s{
+#contain .information .price s{
 	font-size: 14px;
 	color: #999;
 }
@@ -257,7 +257,7 @@
 	text-indent: 6px;
 	padding: 6px 0 0 0;
 }
-#contain .type{
+#contain .information .type{
 	background-color: #59b200;
 	width: 90px;
 	color: #fff;
@@ -270,7 +270,7 @@
 	top: 0px;
 	
 }
-#contain .more{
+#contain .info-more{
 	width: 200px;
 	height: 50px;
 	line-height: 50px;
@@ -282,4 +282,108 @@
 	cursor: pointer;
 	font-size: 18px;
 	background-color: #fafafa;
+}
+/*机票预订页面*/
+#contain .ticket h2{
+	padding: 0 0 15px 0;
+	border-bottom: 1px dashed #ccc;
+	font-size: 30px;
+	color: #333;
+}
+#contain .ticket p{
+	font-size: 18px;
+	text-indent: 2px;	
+}
+#contain .ticket mark{
+	background-color: #59b200;
+	margin: 0 10px 0 16px;
+	padding: 4px 6px;
+	border-radius: 2px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#contain .tk-left{
+	display: inline-block;
+	width: 43%;
+}
+
+#contain .tk-right{
+	display: inline-block;
+	width: 43%;
+}
+#contain .tk-left input,#contain .tk-right input{
+	margin-left: 16px;
+	height: 30px;
+	font-size: 18px;
+	padding-left: 10px;
+}
+#contain .tk-button{
+	display: inline-block;
+	width: 9%;
+	
+}
+#contain .tk-button button{
+
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	background-color: #f60;
+	text-align: center;
+	color: #fff;
+	position: relative;
+	top:-24px;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+}
+#contain .ticket .new{
+	margin: 20px 0 0 0;
+	font-size: 20px;
+}
+#contain .ticket .new ul{
+	margin: 15px 0 0 0;
+}
+#contain .ticket .new li{
+	display: inline-block;
+	padding: 5px 10px;
+}
+#contain .ticket .new li:first-child{
+	padding-left: 0;
+}
+#contain .ticket .new li.select{
+	background-color: #45b800;
+	color: #fff;
+	border-radius: 4px;
+}
+#contain .ticket .new table{
+	width: 100%;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	margin: 25px 0 0 0;
+}
+#contain .ticket .new tbody tr:nth-child(odd){
+	background-color: #fafafa;
+}
+#contain .ticket .new tbody tr:hover{
+	background-color: #eee;
+}
+#contain .ticket .new td,#contain .ticket .new th{
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	height: 50px;
+}
+#contain .ticket .price{
+	color: #f60;
+
+}
+#contain .ticket table a{
+	background-color: #f60;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 10px;
+	border-radius: 4px;
+}
+#contain .ticket tfoot:hover{
+	background-color: #eee;
 }
