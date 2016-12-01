@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>机票订购</title>
+	<title>风景欣赏</title>
 	<link rel="stylesheet" type="text/css" href="style/basic.css">
 	<link rel="stylesheet" type="text/css" href="style/info.css">
 </head>
@@ -16,8 +16,8 @@
 				<ul>
 					<li><a href="demo1-index.html">首页</a></li>
 					<li><a href="information.html">旅游资讯</a></li>
-					<li class="active"><a href="ticket.html">机票订购</a></li>
-					<li><a href="scenery.html">风景欣赏</a></li>
+					<li><a href="ticket.html">机票订购</a></li>
+					<li class="active"><a href="scenery.html">风景欣赏</a></li>
 					<li><a href="about.html">公司简介</a></li>
 				</ul>
 			</nav>
@@ -111,158 +111,46 @@
 				</div>
 			</div>
 		</div>
-		<!-- 左边机票订购 -->
-		<div class="list ticket">
-			<form action="#">
-				<div class="type">
-					<h2>机票预订</h2>
-					<p>航班类型 <mark>单程</mark> 往返</p>
-				</div>
-				<div class="tk-left">
-					<p>
-						<label>出发城市</label>
-						<input type="text" name="" placeholder="城市名">
-					</p>
-					<p>
-						<label>返回城市</label>
-						<input type="text" name="" placeholder="城市名">
-					</p>
-					
-				</div>
-				<div class="tk-right">
-					<p>
-						<label>出发时间</label>
-						<input type="text" name="" placeholder="时间/日期">
-					</p>
-					<p>
-						<label>返回时间</label>
-						<input type="text" name="" placeholder="时间/日期">
-					</p>
-					
-				</div>
-				<div class="tk-button">
-					<button type="submit">订票</button>
-				</div>
-				<div class="new">
-					<h2>最新机票</h2>
-					<ul>
-						<li>热门城市：</li>
-						<li class="select">北京</li>
-						<li>上海</li>
-						<li>广州</li>
-						<li>深圳</li>
-						<li>重庆</li>
-						<li>成都</li>
-						<li>杭州</li>
-						<li>南京</li>
-					</ul>
-
-					<table>
-						<thead>
-							<tr>
-								<th>路线</th>
-								<th>日期</th>
-								<th>价格</th>
-								<th>税费</th>
-								<th>餐食</th>
-								<th>航班</th>
-								<th>预订</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>北京-成都</td>
-								<td>10-15</td>
-								<td class="price">￥745</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>春秋航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-上海</td>
-								<td>10-15</td>
-								<td class="price">￥479</td>
-								<td>￥55</td>
-								<td>无</td>
-								<td>南方航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-深圳</td>
-								<td>10-15</td>
-								<td class="price">￥561</td>
-								<td>￥50</td>
-								<td>有</td>
-								<td>春秋航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-杭州</td>
-								<td>10-15</td>
-								<td class="price">￥567</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>西部航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-广州</td>
-								<td>10-15</td>
-								<td class="price">￥745</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>首都航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-重庆</td>
-								<td>10-15</td>
-								<td class="price">￥436</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>东方航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-昆明</td>
-								<td>10-15</td>
-								<td class="price">￥509</td>
-								<td>￥45</td>
-								<td>无</td>
-								<td>厦门航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-厦门</td>
-								<td>10-15</td>
-								<td class="price">￥893</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>深圳航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-长沙</td>
-								<td>10-15</td>
-								<td class="price">￥663</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>四川航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-						</tbody>
-						<tfoot>
-							<tr>
-								<td colspan="7">
-									加载更多...
-								</td>
-							</tr>
-						</tfoot>
-					</table>
-				</div>
-			</form>
-			
+		<!-- 左边资讯区 -->
+		<div class="list scenery">
+			<section>
+				<h2>风景欣赏</h2>
+				<figure>
+					<img src="img/demo1/s1.jpg">
+					<figcaption>曼谷-芭提雅[共8张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s2.jpg">
+					<figcaption>曼谷-芭提雅[共7张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s3.jpg">
+					<figcaption>曼谷-芭提雅[共31张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s4.jpg">
+					<figcaption>曼谷-芭提雅[共15张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s5.jpg">
+					<figcaption>曼谷-芭提雅[共9张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s6.jpg">
+					<figcaption>曼谷-芭提雅[共44张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s7.jpg">
+					<figcaption>曼谷-芭提雅[共23张]</figcaption>
+				</figure>
+				<figure>
+					<img src="img/demo1/s8.jpg">
+					<figcaption>曼谷-芭提雅[共16张]</figcaption>
+				</figure>
+			</section>
+			<div class="scene-more">
+				加载更多...
+			</div>
 		</div>
 	</div>
 

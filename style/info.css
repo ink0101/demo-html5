@@ -72,7 +72,7 @@
 #contain .figure{
 	padding: 10px 0;
 }
-#contain figure{
+#contain .hot figure{
 	width: 150px;
 	height: 98px;
 	display: inline-block;
@@ -270,7 +270,7 @@
 	top: 0px;
 	
 }
-#contain .info-more{
+#contain .info-more,#contain .scene-more{
 	width: 200px;
 	height: 50px;
 	line-height: 50px;
@@ -283,8 +283,13 @@
 	font-size: 18px;
 	background-color: #fafafa;
 }
-/*机票预订页面*/
-#contain .ticket h2{
+#contain .info-more:hover,#contain .scene-more:hover{
+	background-color: #eee;
+}
+
+
+
+#contain .ticket h2,#contain .scenery h2,#contain .about h2{
 	padding: 0 0 15px 0;
 	border-bottom: 1px dashed #ccc;
 	font-size: 30px;
@@ -386,4 +391,35 @@
 }
 #contain .ticket tfoot:hover{
 	background-color: #eee;
+	cursor: pointer;
+}
+#contain .scenery figure{
+	display: inline-block;
+	margin: 15px 2px 0 0;
+	width: 435px;
+	border: 1px solid #ddd;
+	padding: 4px;
+	text-align:left;
+	position: relative;
+}
+#contain .scenery figcaption{
+	font-size: 14px;
+	text-align: center;
+	padding: 5px 0;
+	color: #333;
+}
+#contain .about p{
+	font-size: 20px;
+	color: #333
+	line-height:2;
+	text-indent: 40px;
+}
+#contain .about h2{
+	padding-top: 20px;
+}
+#contain .contact{
+	font-size: 20px;
+	line-height: 1.6;
+	margin-top: 20px;
+	font-style: normal;
 }

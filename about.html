@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>机票订购</title>
+	<title>公司简介</title>
 	<link rel="stylesheet" type="text/css" href="style/basic.css">
 	<link rel="stylesheet" type="text/css" href="style/info.css">
 </head>
@@ -16,9 +16,9 @@
 				<ul>
 					<li><a href="demo1-index.html">首页</a></li>
 					<li><a href="information.html">旅游资讯</a></li>
-					<li class="active"><a href="ticket.html">机票订购</a></li>
+					<li><a href="ticket.html">机票订购</a></li>
 					<li><a href="scenery.html">风景欣赏</a></li>
-					<li><a href="about.html">公司简介</a></li>
+					<li class="active"><a href="about.html">公司简介</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -111,158 +111,27 @@
 				</div>
 			</div>
 		</div>
-		<!-- 左边机票订购 -->
-		<div class="list ticket">
-			<form action="#">
-				<div class="type">
-					<h2>机票预订</h2>
-					<p>航班类型 <mark>单程</mark> 往返</p>
-				</div>
-				<div class="tk-left">
-					<p>
-						<label>出发城市</label>
-						<input type="text" name="" placeholder="城市名">
-					</p>
-					<p>
-						<label>返回城市</label>
-						<input type="text" name="" placeholder="城市名">
-					</p>
-					
-				</div>
-				<div class="tk-right">
-					<p>
-						<label>出发时间</label>
-						<input type="text" name="" placeholder="时间/日期">
-					</p>
-					<p>
-						<label>返回时间</label>
-						<input type="text" name="" placeholder="时间/日期">
-					</p>
-					
-				</div>
-				<div class="tk-button">
-					<button type="submit">订票</button>
-				</div>
-				<div class="new">
-					<h2>最新机票</h2>
-					<ul>
-						<li>热门城市：</li>
-						<li class="select">北京</li>
-						<li>上海</li>
-						<li>广州</li>
-						<li>深圳</li>
-						<li>重庆</li>
-						<li>成都</li>
-						<li>杭州</li>
-						<li>南京</li>
+		<!-- 左边资讯区 -->
+		<div class="list about">
+			<section>
+				<h2>关于我们</h2>
+				<p>知名旅游网于2006年10月创立于南京，以“让旅游更简单”为使命，为消费者提供由北京、上海、广州、深圳、南京等64个城市出发的旅游产品预订服务，产品全面，价格透明，全年365天24小时400电话预订，并提供丰富的后续服务和保障。</p>
+				<p>知名旅游网提供8万余种旅游产品供消费者选择，涵盖跟团、自助、自驾、邮轮、酒店、签证、景区门票以及公司旅游等，已成功服务累计超过400万人次出游。</p>
+				<p>2014年12月15日，知名旅游网宣布与弘毅投资、京东商城、携程旗下子公司“携程投资”以及知名首席执行官与首席运营官签订股权认购协议。根据协议，知名将向上述投资者出售1.48亿美元的新发行股份。</p>
+			</section>
+			<section>
+				<h2>联系方式</h2>
+				<address>
+					<ul class="contact">
+						<li>知名旅行社有限公司</li>
+						<li>地址：浙江杭州路路路345</li>
+						<li>邮编：345677</li>
+						<li>电话：010-666666</li>
+						<li>传真：010-888888</li>
 					</ul>
-
-					<table>
-						<thead>
-							<tr>
-								<th>路线</th>
-								<th>日期</th>
-								<th>价格</th>
-								<th>税费</th>
-								<th>餐食</th>
-								<th>航班</th>
-								<th>预订</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>北京-成都</td>
-								<td>10-15</td>
-								<td class="price">￥745</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>春秋航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-上海</td>
-								<td>10-15</td>
-								<td class="price">￥479</td>
-								<td>￥55</td>
-								<td>无</td>
-								<td>南方航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-深圳</td>
-								<td>10-15</td>
-								<td class="price">￥561</td>
-								<td>￥50</td>
-								<td>有</td>
-								<td>春秋航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-杭州</td>
-								<td>10-15</td>
-								<td class="price">￥567</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>西部航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-广州</td>
-								<td>10-15</td>
-								<td class="price">￥745</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>首都航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-重庆</td>
-								<td>10-15</td>
-								<td class="price">￥436</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>东方航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-昆明</td>
-								<td>10-15</td>
-								<td class="price">￥509</td>
-								<td>￥45</td>
-								<td>无</td>
-								<td>厦门航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-厦门</td>
-								<td>10-15</td>
-								<td class="price">￥893</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>深圳航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-							<tr>
-								<td>北京-长沙</td>
-								<td>10-15</td>
-								<td class="price">￥663</td>
-								<td>￥45</td>
-								<td>有</td>
-								<td>四川航空</td>
-								<td><a href="#">预订</a></td>
-							</tr>
-						</tbody>
-						<tfoot>
-							<tr>
-								<td colspan="7">
-									加载更多...
-								</td>
-							</tr>
-						</tfoot>
-					</table>
-				</div>
-			</form>
-			
+				</address>
+				
+			</section>
 		</div>
 	</div>
 
